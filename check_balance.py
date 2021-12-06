@@ -26,8 +26,10 @@ if __name__ == '__main__':
         for addr, token in check_list:
             rst = client.get_token_account_balance(addr)
             balance = int(rst['result']['value']['amount'])
+            balance_of_readable = rst['result']['value']['uiAmountString']
+            logging.info(f"{token} balance: {balance_of_readable}")
             if balance > 0:
-                msg = f"{token} balance: {rst['result']['value']['uiAmountString']}"
+                msg = f"{token} balance: {balance_of_readable}"
                 send_telegram_notice(msg)
                 send_flag = True
 
