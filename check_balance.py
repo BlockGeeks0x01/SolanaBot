@@ -9,6 +9,7 @@ client = Client('https://api.mainnet-beta.solana.com')
 
 check_list = (
     (TokenAccount.CWAR, "CWAR"),
+    (TokenAccount.BLOCK, "BLOCK"),
 )
 
 
