@@ -11,6 +11,7 @@ check_list = (
     (TokenAccount.CWAR, "CWAR"),
     (TokenAccount.BLOCK, "BLOCK"),
     (TokenAccount.UNQ, "UNQ"),
+    (TokenAccount.MEAN, "MEAN"),
 )
 
 
