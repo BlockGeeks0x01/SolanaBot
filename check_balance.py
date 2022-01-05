@@ -14,6 +14,7 @@ check_list = (
     (TokenAccount.MEAN, "MEAN"),
     (TokenAccount.GWT, "GWT"),
     (TokenAccount.SCY, "SCY"),
+    (TokenAccount.SLC, "SLC"),
 )
 
 
