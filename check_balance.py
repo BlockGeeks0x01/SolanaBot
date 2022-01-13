@@ -15,6 +15,7 @@ check_list = (
     (TokenAccount.GWT, "GWT", ""),
     (TokenAccount.SLC, "SLC", "cost: 0.07"),
     (TokenAccount.SVT, "SVT", "cost: 0.3"),
+    (TokenAccount.NOS, "NOS", "cost: 0.1"),
 )
 
 

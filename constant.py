@@ -10,6 +10,7 @@ class TokenAccount:
     SCY = "BXZ8MXFFq3stVyyWwF19SoCEcM3JNfKXavcQ2TFPjwb5"
     SLC = "7ppbmE3BD8RASX8e5Ch1irHhYivKtpckLQj7bV3TMJtz"
     SVT = "5YwfaYSdZXnTUMuexRN9M6jkXfNBNxC1QTkAAaRKSMbE"
+    NOS = "6nqBZDTMYaWo6dqbPtD2ESAsdU9Gz63Ri8FaS3qcX4u5"
 
 
 # telegram
