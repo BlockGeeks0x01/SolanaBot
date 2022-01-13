@@ -8,12 +8,13 @@ from utils import send_telegram_notice
 client = Client('https://api.mainnet-beta.solana.com')
 
 check_list = (
-    (TokenAccount.CWAR, "CWAR", ""),
+    (TokenAccount.CWAR, "CWAR", "cost: 0.028"),
     (TokenAccount.BLOCK, "BLOCK", "cost: 0.078"),
     (TokenAccount.UNQ, "UNQ", ""),
     (TokenAccount.MEAN, "MEAN", ""),
     (TokenAccount.GWT, "GWT", ""),
     (TokenAccount.SLC, "SLC", "cost: 0.07"),
+    (TokenAccount.SVT, "SVT", "cost: 0.3"),
 )
 
 
